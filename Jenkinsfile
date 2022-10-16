@@ -19,7 +19,7 @@
 
 // 构建 python 应用
 pipeline {
-    agent { any 'python:3.8' }
+    agent none
 
     stages {
         stage('build') {
